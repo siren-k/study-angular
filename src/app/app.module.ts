@@ -18,7 +18,8 @@ import {HomeComponent} from './pages/home.component';
 import {ServiceComponent} from './pages/service.component';
 import {AboutComponent} from './pages/about.component';
 import {NotFoundComponent} from './pages/not-found.component';
-import { LetConstComponent } from './chap3/let-const/let-const.component';
+
+import {AngularIntroductionComponent} from './chap1/angular-introduction.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,7 @@ import { LetConstComponent } from './chap3/let-const/let-const.component';
     ServiceComponent,
     AboutComponent,
     NotFoundComponent,
-    LetConstComponent,
+    AngularIntroductionComponent,
   ],
   imports: [
     BrowserModule,

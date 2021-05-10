@@ -1,17 +1,17 @@
 import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
 
-import {LetConstComponent} from './chap3/let-const/let-const.component';
-
 import {HomeComponent} from './pages/home.component';
 import {ServiceComponent} from './pages/service.component';
 import {AboutComponent} from './pages/about.component';
 import {NotFoundComponent} from './pages/not-found.component';
 
+import {AngularIntroductionComponent} from './chap1/angular-introduction.component';
+
 const routes: Routes = [
   {path: '', redirectTo: 'home', pathMatch: 'full'},
 
-  {path: 'chap3/letconst', component: LetConstComponent},
+  {path: 'chap01/angular-introduction', component: AngularIntroductionComponent},
 
   {path: 'home', component: HomeComponent},
   {path: 'service', component: ServiceComponent},

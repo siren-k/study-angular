@@ -25,16 +25,16 @@ const TREE_DATA: FoodNode[] = [
       {
         name: '1장 Angualr의 소개와 특징',
         children: [
-          {name: '1.1 Angular 소개', link: ''},
-          {name: '1.2 Angular와 AngularJS의 차이점', link: ''},
+          {name: '1.1 Angular 소개', link: '/chap01/angular-introduction'},
+          {name: '1.2 Angular와 AngularJS의 차이점', link: '/chap01/angular-introduction'},
           {
             name: '1.3 Angular의 장점',
             children: [
-              {name: '1.3.1 개선된 개발 생산성', link: ''},
-              {name: '1.3.2 성능의 향상', link: ''},
+              {name: '1.3.1 개선된 개발 생산성', link: '/chap01/angular-introduction'},
+              {name: '1.3.2 성능의 향상', link: '/chap01/angular-introduction'},
             ]
           },
-          {name: '1.4 브라우저 지원 범위', link: ''},
+          {name: '1.4 브라우저 지원 범위', link: '/chap01/angular-introduction'},
         ]
       }, {
         name: '2장 Node.js와 npm',

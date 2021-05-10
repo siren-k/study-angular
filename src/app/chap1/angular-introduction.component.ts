@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-let-const',
+  selector: 'app-angular-introduction',
   template: `
     <p>
-      let-const works!
+      angular-introduction works!
     </p>
   `,
   styles: [
   ]
 })
-export class LetConstComponent implements OnInit {
+export class AngularIntroductionComponent implements OnInit {
 
   constructor() { }
 

@@ -20,19 +20,27 @@ const TREE_DATA: FoodNode[] = [
       {name: 'About', link: '/about'},
     ]
   }, {
-    name: 'Vegetables',
+    name: 'Angular Essential',
     children: [
       {
-        name: 'Green',
+        name: '3장 ECMAScript 6',
         children: [
-          {name: 'Broccoli'},
-          {name: 'Brussels sprouts'},
+          {name: '3.1 let, const와 블록 레벨 스코프', link: '/chap3/letconst'},
         ]
       }, {
-        name: 'Orange',
+        name: '7.5 데이터 바인딩',
         children: [
-          {name: 'Pumpkins'},
-          {name: 'Carrots'},
+          {name: 'a', link: ''},
+        ]
+      }, {
+        name: '7.6 빌트인 디렉티브',
+        children: [
+          {name: 'a', link: ''},
+        ]
+      }, {
+        name: '7.7 템플릿 참조 변수',
+        children: [
+          {name: 'a', link: ''},
         ]
       },
     ]

@@ -6,7 +6,7 @@
     <mat-toolbar>Menu</mat-toolbar>
 
     <mat-nav-list>
-      <mat-tree [dataSource]="dataSource" [treeControl]="treeControl" class="example-tree">
+      <mat-tree [dataSource]="dataSource" [treeControl]="treeControl" class="tree">
         <!-- This is the tree node template for leaf nodes -->
         <mat-tree-node *matTreeNodeDef="let node" matTreeNodeToggle>
           <li class="mat-tree-node">
@@ -21,7 +21,7 @@
               </button>
               {{node.name}}
             </div>
-            <ul [class.example-tree-invisible]="!treeControl.isExpanded(node)">
+            <ul [class.tree-invisible]="!treeControl.isExpanded(node)">
               <ng-container matTreeNodeOutlet></ng-container>
             </ul>
           </li>
@@ -42,6 +42,7 @@
       </button>
       <span>study-angular</span>
     </mat-toolbar>
+
     <!-- Add Content Here -->
     <router-outlet></router-outlet>
   </mat-sidenav-content>
